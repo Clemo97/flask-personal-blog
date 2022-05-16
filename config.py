@@ -15,6 +15,9 @@ class Config:
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
 
+    # MAIL_USERNAME = 'oduolpepe618@gmail.com'
+    # MAIL_PASSWORD = '37959713Sam'
+
 
     
 class ProdConfig(Config):
@@ -26,7 +29,7 @@ class ProdConfig(Config):
     '''
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
-    
+
 class DevConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://clement:clemolumz@localhost/blogs'
 
