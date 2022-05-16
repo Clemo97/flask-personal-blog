@@ -4,7 +4,7 @@ class Config:
     '''
     General configuration parent class
     '''
-    SECRET_KEY = 'oduol'
+    SECRET_KEY = 'clement'
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:access@localhost/blogs'
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
     SQLALCHEMY_TRACK_MODIFICATIONS =True
