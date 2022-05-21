@@ -2,3 +2,7 @@ virtual/
 *.pyc
 instance/
 start.sh
+.vscode/
+__pycache__
+migrations/
+.cache/
