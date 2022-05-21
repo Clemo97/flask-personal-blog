@@ -3,7 +3,7 @@
 #### Author: [Clement Lumumba](https://github.com/Clemo97)
 
 
-* Link to live site: [My blogs]()
+* Link to live site: [My blogs](https://clemoz-blogs.herokuapp.com/)
 
 ## Description
 This is a personal blogging website where you can create and share your opinions and other users can read and comment on them. Additionally it has a feature that displays random quotes to inspire your users.

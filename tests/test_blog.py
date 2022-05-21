@@ -5,21 +5,21 @@ import unittest
 
 class BlogModelTest(unittest.TestCase):
     def setUp(self):
-        self.user_Peris = User(username = 'Peris',password = 'banana', email = 'james@ms.com')
-        self.new_blog = Blog(id=1,blog_title='Test',blog_content='This is a test blog',category="interview",user = self.user_Peris,likes=0,dislikes=0)
+        self.user_Clemo = User(username = 'Clemo',password = 'clement', email = 'clemoz@gmail.com')
+        self.new_blog = Blog(id=1,blog_title='Test',blog_content='This is a test blog',category="interview",user = self.user_Clemo,likes=0,dislikes=0)
 
     def tearDown(self):
         User.query.delete()
         Blog.query.delete()
         Comment.query.delete()
-      
+
 
     def test_check_instance_variables(self):
         self.assertEquals(self.new_blog.blog_title,'Test')
         self.assertEquals(self.new_blog.blog_content,'This is a test blog')
         self.assertEquals(self.new_blog.category,"interview")
         self.assertEquals(self.new_blog.
-        user,self.user_Peris)
+        user,self.user_Clemo)
 
     def test_save_blog(self):
         self.new_blog.save_blog()
